@@ -1,0 +1,16 @@
+while loops
+
+syntax:
+while(expression)
+    prog statement
+
+example:
+
+int count = 10;
+while(count >= 0) {
+    print("%d \n", count);
+    count--;
+}
+printf("\n>>BLAST OFF<<\n");
+
+return 0;

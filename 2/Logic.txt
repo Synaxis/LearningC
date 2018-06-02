@@ -1,0 +1,40 @@
+getchar() reading input
+
+example - int getchar(void);
+
+description- reads the next character from standart input (if available)
+
+- returns EOF when end of file or errors happen
+
+puctchar - writing output
+
+example int puchar(int c);
+
+description:
+-write the character c
+(converted to an unsigned char)
+to standard output
+-returns the characeter that was written.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

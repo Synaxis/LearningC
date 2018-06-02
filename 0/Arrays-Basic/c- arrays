@@ -1,0 +1,33 @@
+// Arrays let us store a set of data types in memory
+// Example Declarations
+
+int values[100];
+char name[25];
+
+//We can provide initializers to arrays:
+
+int values[4] = {0, 1, 2, 3};
+char greeting[5] = {`h´, `e´, `l´, `l´, `o´};
+char name[] = {'f', 'r', 'e', 'd'}; // also don't need to specify the size
+
+int bigarray[] = {[0] = 1, [1] = 10, [999] = 0} // here the array will have a range of 0 to 1000,
+//and only 999 is gonna have the it's values DEFINED , all the 998 rest is undefined
+
+// Reading from text files
+
+//Options for reading from text files:
+
+// fscanf(): Same as scanf , but the input comes from a file.
+
+//fgetc() : read text file character at a time ( "let use read from a file one character at a time")
+
+//fgets() ; read text file line at a time
+
+
+//Options for wrtiting to text files:
+
+//fprintf(): just like printf , only output goesto file
+
+// fputc() : write to text file char at a time
+
+//fputs(): write to text file one Line at a time

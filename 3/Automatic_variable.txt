@@ -1,0 +1,14 @@
+An automatic variable is a local variable whichis allocated and deallocated automatically when program flow enters and leaves the variable scope . the scope is the lexical context.
+Local data is typically (in most languages) invisible outside the function or lexical context where it is defined. Local data is also invisible and inaccessible to a called function,[note 1] but is not deallocated, coming back in scope as the execution thread returns to the caller.
+
+automatic local vars(4)
+-local vars can also be define as static 
+static  int i=0;
+
+-init happens onceno matter how many times the function is called ,and the value persists between calls
+
+            Forward declarations(I)
+Note: your function needs to be declared before you reference it, otherwise the
+      compiler doesnt know how to handle the type and/or the return value
+
+1 always explicity

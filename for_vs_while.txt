@@ -1,0 +1,29 @@
+for vs while
+
+for loop:
+    for(init_expr; loop_cond; loop_expr)
+    prog statement
+
+equivalent while loop:
+
+init_expr:
+while(loop_cond) {
+    program statement
+    loop_expr;
+}
+
+there is also the do/while loop
+
+syntax:
+
+do
+    prog statement
+while (loop_expr);
+
+example:
+
+int count = 10;
+do {
+    printf("%d \n", count--);
+} while (count >= 0);
+

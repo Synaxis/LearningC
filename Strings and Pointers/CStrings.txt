@@ -1,0 +1,22 @@
+Strings
+
+-char - used to represent a single character.
+    char c = 'c'
+
+-char[] - used to represent Strings
+    char[] str = {'b','y','e','\O'};
+\O is the NULL character
+
+-Variable length Strings
+    the null character represents the end of a Strings
+
+    when operating on strings(arrays of chars)
+    the-end-of-string marker needs to be checked for.
+\O is a string ending
+
+char* can be used to refer to a string
+or "call" a string 
+
+char str1[6] = {'h','e','l','l','o','\0'};
+char* str2 = str1; // points to "hello"
+char* str3 = &str1[1]; // points to "ello"

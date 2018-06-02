@@ -1,0 +1,5 @@
+-structs let us clump a group logically related heterogenous chunks of data into a single entity
+
+-typedefs give us a nice syntactical tool to create aliases for types
+
+- unions are kinda different
