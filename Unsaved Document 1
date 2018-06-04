@@ -1,0 +1,7 @@
+Int variables-
+the size varies for the size of the processor . It is the "most used" int 
+in intel processor , ocuppies 32 bits and can hold from -2.147.483.648 to 2.147.483.647
+
+unsigned int- same as int but no negative values. from 0 to 4.294.967.295
+
+
