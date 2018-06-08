@@ -1,0 +1,8 @@
+typedef 
+      recipe for defining typedefs
+1- write the statement as if a variable of the desired type were being
+   declared
+
+2- Where the name of the declared variable would normally appear, substitute the new type name.
+
+3- in front of everything else,place the keyword typedef

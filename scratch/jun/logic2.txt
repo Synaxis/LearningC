@@ -1,0 +1,17 @@
+switch
+   syntax
+switch(expression) {
+   case value1:
+      progressive statement
+      ...
+      break;
+   ...
+   
+   case value2:
+      progressive statement
+      ...
+      break;
+      
+   default:
+      progressive statement ...;
+   }

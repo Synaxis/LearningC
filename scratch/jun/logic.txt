@@ -1,0 +1,21 @@
+         printf
+Syntax:
+
+- printf(format_str, arg1, arg2, ...);
+
+   arguments are the VARIABLES to be printed
+
+   format string tells printf how we want the values to be displayed
+
+
+      scanf
+   scanf reads formatted input from standard input
+
+Syntax
+
+scanf(format_str, &arg1, arg2, ...);
+
+*the arguments are the Adresses of the variables that store the values
+
+format string tells scanf how the input is formatted
+
