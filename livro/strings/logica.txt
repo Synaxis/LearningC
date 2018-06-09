@@ -1,0 +1,15 @@
+strings sao apenas arrays de caracteres (char)
+s = "shartner"
+s = {'s','h','a','r','t','n','e','r'};
+cada 1 dos caracteres é 1 elemento do array
+ex: s[0] = 's'
+Imagine que queira imprimir uma string . Em muitas linguagens , o computador mantem registros do tamanho de um array, mas C é nivel baixo.
+e nao sabe (por padrao) qual é o comprimento de um array
+Se C precisa exibir uma string na tela , ele precisa saber quando deve chegar ao final do array(da string)
+e ele faz isso acrescentando um CARACTERE LITERAL
+o caractere literal é um char adiciona no fim da string
+e que tem o valor \0 quando o PC precisa ler a string ele passa por todos os elementos da Array(da string) até chegar no \0 
+ou seja quando ele lê
+s = "casa"
+na verdade lê ->'c','a','s','a','\0'
+\0 também é chamado de charactere NULL
