@@ -1,0 +1,9 @@
+#include <stdio.h>	
+
+int main() {
+	char caio = {'c','a','i','o','\0'};
+	
+	printf("Isso é um teste\n");
+	
+	return 0;
+}

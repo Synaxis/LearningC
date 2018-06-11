@@ -1,0 +1,17 @@
+		===Variaveis float e char=====
+	float decimal
+	
+	char armazena uma letra
+	char[] = string, conta quantas letras tem a string + 1 ( \0 char null
+
+FOR 
+	for (define valor inicial; limite; açao;)		
+	
+	int contador;
+	
+	for (contador = 1; contador <= 10; contador++) {
+		printf("contador eh: %i\n", contador);
+	}	
+
+	return 0;
+} 
