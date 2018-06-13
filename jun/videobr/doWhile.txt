@@ -1,0 +1,15 @@
+doWhile é a mesma coisa que ("enquanto while")
+ 
+
+
+#include <stdio.h>
+
+int main() {
+	int i = 0;
+	
+	while (i !=0){
+		printf("teste");
+	}
+	
+	return 0;
+}

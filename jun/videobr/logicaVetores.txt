@@ -1,0 +1,4 @@
+vetores sao uteis para salvar tempo e aumentar a performance
+
+ex : inves de declarar e inicializar varios printfs
+ -> usar um for loop
