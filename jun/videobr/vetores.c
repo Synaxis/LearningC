@@ -1,13 +1,11 @@
 #include <stdio.h>
 
 int main(void) {
-	float notas[5] = {0};
-	float total = 0;
-	float media = 0;
-
-	printf("insira 5 notas: \n");
-
 	
-
+	int vetor[5] = {5};
+	
+	for (int i = 0; i < 5; ++i) {
+		printf("%i\n", vetor[i]);
+	}
 	return 0;
 }
