@@ -1,0 +1,47 @@
+oque é um vetor
+
+vamos imaginar que vc tivesse em 1 escola
+e vc tem 1 programa pra armazenar a nota de 1 aluno por bimestre
+		int notaPedro;
+		int notaMarcos;
+		int notaMichele;
+		int notaCaio;
+
+	-> isso não é bom
+
+que tal 
+	int nota; -> ok , mas temos que definir o tamanho que esse vetor pode armazenar
+
+	int nota[5];
+	
+	nota[0] = 10;
+	nota[0] = 10;
+	nota[0] = 10;
+
+
+#include <stdio.h>
+	
+int main(void) {
+			
+	int vetor[5];
+	
+	printf("%i", vetor[0]); -> se quiser printar todos os vetores
+	printf("%i", vetor[1]);
+	printf("%i", vetor[2]);
+	printf("%i", vetor[3]);
+
+
+
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+	
+
