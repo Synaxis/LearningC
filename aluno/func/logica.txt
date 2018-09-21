@@ -1,0 +1,17 @@
+as funções se comunicam uma com as outras
+
+exemplo 
+
+int main (void) {
+    
+    area = calcularAreaQuadrad(0); -> AQUI vai ENVIAR e chamar a função
+    return 0;
+}
+
+
+float calcularAreaQuadrado(float base, float altura) {   (float base, float altura)
+                                                         => AQUI vai RECEBER as variaveis
+
+
+    return area ;
+}
